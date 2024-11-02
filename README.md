@@ -1,3 +1,9 @@
+## Live Site
+https://react-viva-quiz.netlify.app/
+
+## Api
+https://6725c5c9c39fedae05b5c64a.mockapi.io/api/react-quiz/question-list
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
