@@ -93,7 +93,8 @@ function App() {
     (prev, cur) => prev + cur.points,0)
 
   useEffect(() => {
-  fetch('http://localhost:8000/questions')
+  //fetch('http://localhost:8000/questions')
+  fetch('https://6725c5c9c39fedae05b5c64a.mockapi.io/api/react-quiz/question-list')
   .then(res => res.json())
   .then(data => dispatch({type: 'dataReceived', payload: data}))
   .catch((err) => dispatch({type: 'dataFailed'}))
